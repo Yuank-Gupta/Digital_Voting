@@ -1,0 +1,68 @@
+body{
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.xyz{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+.bgimg{
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    z-index: -1;
+    opacity: 0.5;
+}
+
+header{
+    height : 40%;
+    width : 100%;
+    background-color: orange;
+}
+marquee{
+    width : 100%;
+}
+main{
+    position: relative;
+    display: flex;
+    justify-content:right;
+}
+#core{
+    height: 400px;
+    width: 400px;
+    backdrop-filter: blur(10px);
+    border-radius:20px;
+    box-shadow:0 0 20px rgba(0,0,0,0.3);
+    margin-left: 613px; 
+    margin-top: 50px;
+    padding: 5px;
+   
+}
+section{
+    height: 75%;
+    width: 100%;
+    display: flex;
+    input{
+        cursor: pointer;
+    }
+}
+footer{
+    display: flex;
+    justify-content: space-evenly;
+}
+button{
+    border: 2px solid white;
+    border-radius: 8px;
+    background: white;
+}
+button:hover{
+    cursor: pointer;
+    background: transparent;
+    border : 2px solid black;
+    color: white;
+}
