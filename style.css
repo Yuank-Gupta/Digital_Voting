@@ -1,6 +1,8 @@
 body{
     overflow-x: hidden;
     overflow-y: hidden;
+    height: 100%;
+    width: 100%;
 }
 .xyz{
     height: 100%;
@@ -40,7 +42,6 @@ main{
     backdrop-filter: blur(10px);
     border-radius:20px;
     box-shadow:0 0 20px rgba(0,0,0,0.3);
-   
     padding: 5px;
    
 }
