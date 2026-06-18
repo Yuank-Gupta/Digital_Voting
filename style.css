@@ -6,6 +6,8 @@ body{
     height: 100%;
     width: 100%;
     position: relative;
+    justify-items: center;
+    padding: 5%;
 }
 .bgimg{
 
@@ -38,8 +40,7 @@ main{
     backdrop-filter: blur(10px);
     border-radius:20px;
     box-shadow:0 0 20px rgba(0,0,0,0.3);
-    margin-left: 613px; 
-    margin-top: 50px;
+   
     padding: 5px;
    
 }
